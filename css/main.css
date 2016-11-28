@@ -1,7 +1,9 @@
 *{
 	outline: 1px solid rgba(255, 0, 0, 0.4);
+	box-sizing: border-box;
 }
 
+/*............................. ....Header  */
 .icon-container {
 	width: 150px;
 	height: 150px;
@@ -9,7 +11,100 @@
 	line-height: 150px;
 	font-size: 60px;
 	text-align: center;
-	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2)
+	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2);
 	border-radius:200px;
 	color: skyblue;
 }
+
+header {
+	background:url("../image/large.jpg") no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-top: 50px;
+	opacity: 0.9px;
+	rgba(0,0,0.9);
+}
+
+.list-inline{
+	float: right;
+}
+
+ul li a{
+	color: white;
+}
+
+/*...............................Header-banner  */
+.phrase{
+	padding:155px;
+	margin-right: 200px;
+	margin-left: 200px;
+	color:white;
+}
+
+
+.header-banner{
+	position: relative;
+	top: 10px;
+	transform: translateY(-140%);
+	background-color: #5A81BA;
+	margin: 0 auto;
+	opacity: 0.8;
+}
+
+header , button{
+	background-color: #5A81BA;
+	opacity: 0.8;
+	border:2px solid white;
+	margin: 40px;
+}
+
+/*.............................. Nuestros Servicios  */
+
+.linea{
+	height: 1px; 
+	background-color: black; 
+	text-align: center;
+}
+
+.separador{
+	 
+	position: relative; 
+	top: -3.7em;
+
+}
+/*.............................. Ejemplo de User  */
+.logo2{
+	width: 50%;
+	display: inline-block;
+}
+.fecha{
+	text-align: center;
+}
+/*.............................. Lo que quiero*/
+
+hr {
+  background-color: black;
+  height: 1px;
+}
+
+.sec-2{
+	width:100%;
+    max-width:640px;
+}
+
+.icons-menu i{
+	width: 90px;
+	height: 80px;
+	margin: 0 auto;
+	line-height: 100px;
+	font-size: 60px;
+	text-align: center;
+	border-radius:200px;
+	color: skyblue;
+	background-color: #74A3DB;
+/*.............................. Por que usar */
+/*.............................. Secciòn Footer Principal */
+/*.............................. Footer Secundario*/
+	float: right;
+}
+
