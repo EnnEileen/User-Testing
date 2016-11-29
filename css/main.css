@@ -3,6 +3,11 @@
 	box-sizing: border-box;
 }
 
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
 /*............................. ....Header  */
 .icon-container {
 	width: 150px;
@@ -56,6 +61,11 @@ header , button{
 	opacity: 0.8;
 	border:2px solid white;
 	margin: 40px;
+	
+}
+
+button{
+	font-size: 30px;
 }
 
 /*.............................. Nuestros Servicios  */
@@ -90,21 +100,112 @@ hr {
 .sec-2{
 	width:100%;
     max-width:640px;
+    background: #595C5E  ; 
+   opacity: .50; 
+
 }
 
-.icons-menu i{
-	width: 90px;
-	height: 80px;
+.iconos{
+	width: 70px;
+	height: 70px;
 	margin: 0 auto;
-	line-height: 100px;
-	font-size: 60px;
+	line-height: 70px;
+	font-size: 30px;
 	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0 , 0, 0, 0.2);
 	border-radius:200px;
-	color: skyblue;
-	background-color: #74A3DB;
+	background-color: #61BDE5 ;
+	
+}
+
+.linea2{
+	height: 1px; 
+	background-color: black; 
+	text-align: center;
+}
+
+.separador2{
+	 
+	position: relative; 
+	top: -3.7em;
+}
+
+.col-lg-2 {
+	margin-left: -40px;
+	-webkit-animation-direction: alternate-reverse;
+	-o-animation-direction: alternate-reverse;
+	animation-direction: alternate-reverse;
+}
+
+
 /*.............................. Por que usar */
+
+.texto-5 p {
+	margin: 25px 10px;
+	font-size: 16px;
+	width: 90%;
+	
+}
+
+.text-6 p {
+	 color: black;
+}
+.texto-5 ul li{
+	font-size: 16px;
+	margin: 25px 35px;
+	width: 90%;
+}
+
 /*.............................. Secciòn Footer Principal */
-/*.............................. Footer Secundario*/
+
+.boton2{
+	background: #5A81BA;
+	font-size: 25px;
+	height: 60px auto;
+	padding:10px 15px;
+	border: 2px solid white;
+	top: 9px;
+	color: white;
+	margin: 25px 100px;
 	float: right;
 }
 
+.footer-principal{
+	background: #5A81BA ;
+}
+
+.letra{
+	color: white;
+}
+
+/*.............................. Footer Secundario*/
+
+.footer-secundario{
+	background:#404954; 
+}
+
+.texto , .texto-2  p{
+	color: white;
+	margin-top: 30px;
+}	
+
+.texto-2{
+	padding-bottom: 40px;
+}
+.icon-facebook, .icon-twitter {
+	widthicon-facebook: 70px;
+	height: 70px;
+	margin: 20px auto;
+	line-height: 70px;
+	font-size: 50px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0 , 0, 0, 0.2);
+	border-radius:200px;
+	background-color: #404954 ;
+	border: 1px solid #0B8DB7;
+}
+.icon-facebook, .icon-twitter {
+	color: #0B8DB7;
+	margin-right: 30px;
+	
+}
