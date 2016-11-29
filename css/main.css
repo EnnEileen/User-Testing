@@ -1,4 +1,4 @@
-*{
+/*{
 	outline: 1px solid rgba(255, 0, 0, 0.4);
 	box-sizing: border-box;
 }
@@ -202,6 +202,10 @@ hr {
 	border-radius:200px;
 	background-color: #404954 ;
 	border: 1px solid #0B8DB7;
+}
+
+.redessociales{
+	text-align: right;
 }
 .icon-facebook, .icon-twitter {
 	color: #0B8DB7;
